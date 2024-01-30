@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clock</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+    
+    <div class="dropdown">
+        <label for="clockType">SELECT CLOCK TYPE :</label>
+        <select id="clockType">
+            <option value="digital">Digital Clock</option>
+            <option value="analog">Analog Clock</option>
+        </select>
+    </div>
+
+
+<div id="drop-down">
+    <div class="clock" id="clock">
+        <div class="hour">
+            <div class="hr" id="hr"></div>
+        </div>
+        <div class="min">
+            <div class="mn" id="mn"></div>
+        </div>
+        <div class="sec">
+            <div class="sc" id="sc"></div>
+        </div>
+    </div>
+
+
+    <div class="digitalClock" id="digitalClock">
+        <div id="time" class="time">00:00:00</div>
+    </div>
+</div>
+
+
+
+
+    <script src="clock.js"></script>
+</body>
+</html>
